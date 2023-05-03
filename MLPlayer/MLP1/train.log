@@ -1,0 +1,62 @@
+Epoch: 001/200   | Learning Rate 0.001000
+Train Auc.: 0.3293 | Test Auc.: 0.3250
+Train Loss.: 0.7133
+Train Acc.: 0.4609 | Test Acc.: 0.4516
+Epoch: 002/200   | Learning Rate 0.001000
+Train Auc.: 0.9243 | Test Auc.: 0.9254
+Train Loss.: 0.6242
+Train Acc.: 0.5016 | Test Acc.: 0.5114
+Epoch: 003/200   | Learning Rate 0.001000
+Train Auc.: 0.9399 | Test Auc.: 0.9410
+Train Loss.: 0.5738
+Train Acc.: 0.5796 | Test Acc.: 0.5937
+Epoch: 004/200   | Learning Rate 0.001000
+Train Auc.: 0.9452 | Test Auc.: 0.9460
+Train Loss.: 0.5341
+Train Acc.: 0.6864 | Test Acc.: 0.7000
+Epoch: 005/200   | Learning Rate 0.001000
+Train Auc.: 0.9458 | Test Auc.: 0.9471
+Train Loss.: 0.5207
+Train Acc.: 0.7111 | Test Acc.: 0.7206
+Epoch: 006/200   | Learning Rate 0.001000
+Train Auc.: 0.9475 | Test Auc.: 0.9493
+Train Loss.: 0.4706
+Train Acc.: 0.7778 | Test Acc.: 0.7858
+Epoch: 007/200   | Learning Rate 0.001000
+Train Auc.: 0.9462 | Test Auc.: 0.9484
+Train Loss.: 0.4395
+Train Acc.: 0.8102 | Test Acc.: 0.8141
+Epoch: 008/200   | Learning Rate 0.001000
+Train Auc.: 0.9462 | Test Auc.: 0.9480
+Train Loss.: 0.3742
+Train Acc.: 0.8747 | Test Acc.: 0.8696
+Epoch: 010/200   | Learning Rate 0.001000
+Train Auc.: 0.9462 | Test Auc.: 0.9477
+Train Loss.: 0.3553
+Train Acc.: 0.8736 | Test Acc.: 0.8745
+Epoch: 015/200   | Learning Rate 0.001000
+Train Auc.: 0.9481 | Test Auc.: 0.9505
+Train Loss.: 0.3055
+Train Acc.: 0.8771 | Test Acc.: 0.8749
+Epoch: 017/200   | Learning Rate 0.001000
+Train Auc.: 0.9490 | Test Auc.: 0.9503
+Train Loss.: 0.2956
+Train Acc.: 0.8783 | Test Acc.: 0.8777
+Epoch: 024/200   | Learning Rate 0.000800
+Train Auc.: 0.9481 | Test Auc.: 0.9503
+Train Loss.: 0.2941
+Train Acc.: 0.8794 | Test Acc.: 0.8778
+Epoch: 030/200   | Learning Rate 0.000800
+Train Auc.: 0.9491 | Test Auc.: 0.9513
+Train Loss.: 0.2905
+Train Acc.: 0.8816 | Test Acc.: 0.8797
+Epoch: 155/200   | Learning Rate 0.000210
+Train Auc.: 0.9494 | Test Auc.: 0.9512
+Train Loss.: 0.2903
+Train Acc.: 0.8810 | Test Acc.: 0.8811
+ | Test Auc.: 0.9512
+ | Test Auprc.: 0.9493
+ | Test Acc.: 0.8811
+ | Test F1.: 0.8811
+ | Test Recall.: 0.8810
+ | Test Precision.: 0.8813
