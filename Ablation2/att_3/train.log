@@ -1,0 +1,42 @@
+Epoch: 001/200   | Learning Rate 0.001000
+Train Auc.: 0.7160 | Test Auc.: 0.7150
+Train Loss.: 0.6871
+Train Acc.: 0.5843 | Test Acc.: 0.5875
+Epoch: 005/200   | Learning Rate 0.001000
+Train Auc.: 0.9028 | Test Auc.: 0.9022
+Train Loss.: 0.5679
+Train Acc.: 0.7100 | Test Acc.: 0.7136
+Epoch: 007/200   | Learning Rate 0.001000
+Train Auc.: 0.9332 | Test Auc.: 0.9309
+Train Loss.: 0.4628
+Train Acc.: 0.8557 | Test Acc.: 0.8507
+Epoch: 016/200   | Learning Rate 0.001000
+Train Auc.: 0.9375 | Test Auc.: 0.9346
+Train Loss.: 0.3624
+Train Acc.: 0.8664 | Test Acc.: 0.8619
+Epoch: 023/200   | Learning Rate 0.000800
+Train Auc.: 0.9392 | Test Auc.: 0.9382
+Train Loss.: 0.3448
+Train Acc.: 0.8654 | Test Acc.: 0.8647
+Epoch: 040/200   | Learning Rate 0.000800
+Train Auc.: 0.9358 | Test Auc.: 0.9339
+Train Loss.: 0.4026
+Train Acc.: 0.8702 | Test Acc.: 0.8681
+Epoch: 071/200   | Learning Rate 0.000512
+Train Auc.: 0.9439 | Test Auc.: 0.9416
+Train Loss.: 0.3040
+Train Acc.: 0.8711 | Test Acc.: 0.8695
+Epoch: 124/200   | Learning Rate 0.000262
+Train Auc.: 0.9424 | Test Auc.: 0.9399
+Train Loss.: 0.3405
+Train Acc.: 0.8719 | Test Acc.: 0.8709
+Epoch: 179/200   | Learning Rate 0.000168
+Train Auc.: 0.9401 | Test Auc.: 0.9389
+Train Loss.: 0.3284
+Train Acc.: 0.8705 | Test Acc.: 0.8714
+ | Test Auc.: 0.9389
+ | Test Auprc.: 0.9310
+ | Test Acc.: 0.8714
+ | Test F1.: 0.8714
+ | Test Recall.: 0.8715
+ | Test Precision.: 0.8714
