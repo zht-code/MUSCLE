@@ -50,56 +50,54 @@ pip install pytorch == 1.10.2+cu113
 ```
 2, Run train.py to generate train_model and performance score, the options are:
 ```
-python src/train.py
+python ./train.py
 
---src: train.py file path
 ```
 3, Ablation experiment：Run GAT_Ave_MDA.py GAT_CAT_MDA.py GAT_dot_MDA.py GAT_MS_MDA.py GAT_MSCAM_MDA.py to generate performance score for everyone, the options are:
 ```
-python src/GAT_Ave_MDA.py
+python ./Ablation/GAT_Ave_MDA.py
 
-python src/GAT_CAT_MDA.py
+python ./Ablation/GAT_CAT_MDA.py
 
-python src/GAT_dot_MDA.py
+python ./Ablation/GAT_dot_MDA.py
 
-python src/GAT_MS_MDA.py
+python ./Ablation/GAT_MS_MDA.py
 
-python src/GAT_MSCAM_MDA.py
+python ./Ablation/GAT_MSCAM_MDA.py
 
---src: file path
 ```
 4, Run 5_Fold.py and 10_Fold.py to generate 5-CV and 10-CV scores, the options are:
 ```
-python src/5_Fold.py
+python ./5_Fold.py
 
-python src/10_Fold.py
+python ./10_Fold.py
 
 ```
 5, embedding size: Run train.py in the embedding_size file , the options are:
 ```
-python  src/embedding_size/902/train.py
+python  ./embedding_size/902/train.py
 
-python  src/embedding_size/878/train.py
+python  ./embedding_size/878/train.py
 
-python  src/embedding_size/700/train.py
+python  ./embedding_size/700/train.py
 
-python  src/embedding_size/600/train.py
+python  ./embedding_size/600/train.py
 
 ```
 6, MLP Layers: Run train.py in the MLPlayer file , the options are:
 ```
-python  src/MLPlayer/MLP1/train.py
+python  ./MLPlayer/MLP1/train.py
 
-python  src/MLPlayer/MLP2/train.py
+python  ./MLPlayer/MLP2/train.py
 
-python  src/MLPlayer/MLP3/train.py
+python  ./MLPlayer/MLP3/train.py
 
-python  src/MLPlayer/MLP4/train.py
+python  ./MLPlayer/MLP4/train.py
 
 ```
 7, case_study: Run casestudies.py to generate three diseases prediction, the options are:
 ```
-python  src/casestudies.py
+python  ./casestudies.py
 
 ```
 # License
