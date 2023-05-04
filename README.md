@@ -27,7 +27,7 @@ To better predict miRNA-disease association, we propose a novel computational me
 # Requirements
 MVSMDA is tested to work under:
 
-Python == 3.6
+python == 3.6
 
 pytorch == 1.10.2+cu113
 
