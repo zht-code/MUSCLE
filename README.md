@@ -1,7 +1,7 @@
-# MVSMDA: Multi-view and multi-scale attentional feature fusion for microRNA-disease associations prediction
-To better predict miRNA-disease association, we propose a novel computational method called MVSMDA. These methods can not only improve the accuracy of miRNA-disease association but also provide more effective means for disease diagnosis, treatment, and prevention.This repository contains codes and datas for MVSMDA model.
+# MUSCLE: Multi-view and multi-scale attentional feature fusion for microRNA-disease associations prediction
+To better predict miRNA-disease association, we propose a novel computational method called MUSCLE. These methods can not only improve the accuracy of miRNA-disease association but also provide more effective means for disease diagnosis, treatment, and prevention.This repository contains codes and datas for MUSCLE model.
 
-![image](github.com/zht-code/MVSMDA/blob/main/MVGMDA.png)
+![image](github.com/zht-code/MUSCLE/blob/main/MVGMDA.png)
 
 # Data description
 
@@ -25,7 +25,7 @@ To better predict miRNA-disease association, we propose a novel computational me
 | x_m_lncRNA_d_adj.csv |  10-fold miRNA-lncRNA-disease Adjacency matrix |
 
 # Requirements
-MVSMDA is tested to work under:
+MUSCLE is tested to work under:
 
 python == 3.6
 
@@ -45,7 +45,7 @@ networkx == 2.5.1
 # Quick start
 To reproduce our results:
 
-1, Download the environment required by MVSMDA
+1, Download the environment required by MUSCLE
 ```
 pip install pytorch == 1.10.2+cu113
 ```
