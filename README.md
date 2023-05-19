@@ -4,7 +4,7 @@ To better predict miRNA-disease association, we propose a novel computational me
 ![image](github.com/zht-code/MUSCLE/blob/main/MVGMDA.png)
 
 # Data description
-
+all data downdload from data.zip
 | File name  | Description |
 | ------------- | ------------- |
 | miRNA.csv    | microRNA name file  |
