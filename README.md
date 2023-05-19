@@ -17,12 +17,12 @@ all data downdload from data.zip
 | m_mRNA_mRNA_d_sample.csv|  all miRNA-mRNA and mRNA-disease association sample| 
 | m_lncRNA_d_sample.csv| all miRNA、lncRNA and disease name | 
 | m_lncRNA_lncRNA_d_sample.csv|  all miRNA-lncRNA and lncRNA-disease association sample| 
-| xm_drug_d_adj.csv |  5-fold miRNA-drug-disease Adjacency matrix | 
-| xm_mRNA_d_adj.csv |  5-fold miRNA-mRNA-disease Adjacency matrix | 
-| xm_lncRNA_d_adj.csv |  5-fold miRNA-lncRNA-disease Adjacency matrix |
-| x_m_drug_d_adj.csv |  10-fold miRNA-drug-disease Adjacency matrix | 
-| x_m_mRNA_d_adj.csv |  10-fold miRNA-mRNA-disease Adjacency matrix | 
-| x_m_lncRNA_d_adj.csv |  10-fold miRNA-lncRNA-disease Adjacency matrix |
+| xm_drug_d_adj.csv |  Each miRNA-drug-disease adjacency matrix used in the 5-fold CV | 
+| xm_mRNA_d_adj.csv |  Each miRNA-mRNA-disease adjacency matrix used in the 5-fold CV | 
+| xm_lncRNA_d_adj.csv |  Each miRNA-lncRNA-disease adjacency matrix used in the 5-fold CV|
+| n_m_drug_d_adj.csv |  Each miRNA-drug-disease adjacency matrix used in the 10-fold CV | 
+| n_m_mRNA_d_adj.csv |  Each miRNA-mRNA-disease adjacency matrix used in the 10-fold CV | 
+| n_m_lncRNA_d_adj.csv | Each miRNA-lncRNA-disease adjacency matrix used in the 10-fold CV |
 
 # Requirements
 MUSCLE is tested to work under:
@@ -45,15 +45,12 @@ networkx == 2.5.1
 # Quick start
 To reproduce our results:
 
-1, Download the environment required by MUSCLE
-```
-pip install pytorch == 1.10.2+cu113
-```
-2, Run train.py to generate train_model and performance score, the options are:
+
+1, Run train.py to generate train_model and performance score, the options are:
 ```
 python ./train.py
 ```
-3, Ablation experiment：Run GAT_Ave_MDA.py GAT_CAT_MDA.py GAT_dot_MDA.py GAT_MS_MDA.py GAT_MSCAM_MDA.py to generate performance score for everyone, the options are:
+2, Ablation experiment：Run GAT_Ave_MDA.py GAT_CAT_MDA.py GAT_dot_MDA.py GAT_MS_MDA.py GAT_MSCAM_MDA.py to generate performance score for everyone, the options are:
 ```
 python ./Ablation/GAT_Ave_MDA.py
 
@@ -65,13 +62,13 @@ python ./Ablation/GAT_MS_MDA.py
 
 python ./Ablation/GAT_MSCAM_MDA.py
 ```
-4, Run 5_Fold.py and 10_Fold.py to generate 5-CV and 10-CV scores, the options are:
+3, Run 5_Fold.py and 10_Fold.py to generate 5-CV and 10-CV scores, the options are:
 ```
 python ./5_Fold.py
 
 python ./10_Fold.py
 ```
-5, embedding size: Run train.py in the embedding_size file , the options are:
+4, embedding size: Run train.py in the embedding_size file , the options are:
 ```
 python  ./embedding_size/902/train.py
 
@@ -81,7 +78,7 @@ python  ./embedding_size/700/train.py
 
 python  ./embedding_size/600/train.py
 ```
-6, MLP Layers: Run train.py in the MLPlayer file , the options are:
+5, MLP Layers: Run train.py in the MLPlayer file , the options are:
 ```
 python  ./MLPlayer/MLP1/train.py
 
@@ -91,7 +88,7 @@ python  ./MLPlayer/MLP3/train.py
 
 python  ./MLPlayer/MLP4/train.py
 ```
-7, case_study: Run casestudies.py to generate three diseases prediction, the options are:
+6, case_study: Run casestudies.py to generate three diseases prediction, the options are:
 ```
 python  ./casestudies.py
 ```
