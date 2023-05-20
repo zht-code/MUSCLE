@@ -7,10 +7,10 @@ To better predict miRNA-disease association, we propose a novel computational me
 all data downdload from data.zip
 | File name  | Description |
 | ------------- | ------------- |
-| miRNA.csv    | microRNA name  |
-| disease.csv  | disease name   |
-| all_sample.csv  | all miRNA-disease samples  |
-| miRNA_disease_feature.csv | feature of miRNAs and diseases fused with Gaussian interaction profile kernel(GIP) |
+| miRNA.csv    | MicroRNA name  |
+| disease.csv  | Disease name   |
+| all_sample.csv  | All miRNA-disease samples  |
+| miRNA_disease_feature.csv | Feature of miRNAs and diseases fused with Gaussian interaction profile kernel(GIP) |
 | m_drug_d_sample.csv| Names of all miRNAs, drugs and diseases | 
 | m_drug_drug_d_sample.csv|  Samples of all miRNA-drug and drug-disease associations| 
 | m_mRNA_d_sample.csv| Names of all miRNAs, mRNA and diseases | 
