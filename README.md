@@ -7,16 +7,16 @@ To better predict miRNA-disease association, we propose a novel computational me
 all data downdload from data.zip
 | File name  | Description |
 | ------------- | ------------- |
-| miRNA.csv    | microRNA name file  |
-| disease.csv  | disease name file   |
-| all_sample.csv  | all miRNA-disease sample  |
-| miRNA_disease_feature.csv | feature of miRNAs and diseaseases fused with Gaussian interaction profile kernel(GIP) |
-| m_drug_d_sample.csv| all miRNA、drug and disease name | 
-| m_drug_drug_d_sample.csv|  all miRNA-drug and drug-disease association sample| 
-| m_mRNA_d_sample.csv| all miRNA、mRNA and disease name | 
-| m_mRNA_mRNA_d_sample.csv|  all miRNA-mRNA and mRNA-disease association sample| 
-| m_lncRNA_d_sample.csv| all miRNA、lncRNA and disease name | 
-| m_lncRNA_lncRNA_d_sample.csv|  all miRNA-lncRNA and lncRNA-disease association sample| 
+| miRNA.csv    | microRNA name  |
+| disease.csv  | disease name   |
+| all_sample.csv  | all miRNA-disease samples  |
+| miRNA_disease_feature.csv | feature of miRNAs and diseases fused with Gaussian interaction profile kernel(GIP) |
+| m_drug_d_sample.csv| Names of all miRNAs, drugs and diseases | 
+| m_drug_drug_d_sample.csv|  Samples of all miRNA-drug and drug-disease associations| 
+| m_mRNA_d_sample.csv| Names of all miRNAs, mRNA and diseases | 
+| m_mRNA_mRNA_d_sample.csv|  Sample of all miRNA-mRNA and mRNA-disease associations | 
+| m_lncRNA_d_sample.csv| Names of all miRNAs, lncRNA and diseases | 
+| m_lncRNA_lncRNA_d_sample.csv|  Sample of all miRNA-lncRNA and lncRNA-disease associations| 
 | xm_drug_d_adj.csv |  Each miRNA-drug-disease adjacency matrix used in the 5-fold CV | 
 | xm_mRNA_d_adj.csv |  Each miRNA-mRNA-disease adjacency matrix used in the 5-fold CV | 
 | xm_lncRNA_d_adj.csv |  Each miRNA-lncRNA-disease adjacency matrix used in the 5-fold CV|
