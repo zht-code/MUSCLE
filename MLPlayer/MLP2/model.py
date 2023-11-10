@@ -118,8 +118,8 @@ class MDA(nn.Module):
         #     nn.BatchNorm1d(1024),
         #     nn.Linear(1024, 1),
         #     nn.Sigmoid())
-        self.mlp = nn.Sequential(nn.Linear(1802 * 2, 1),
-                                 nn.Sigmoid())
+        self.mlp = nn.Sequential(nn.Linear(1802 * 2, 1024),
+                                 nn.Linear(1024, 1), nn.Sigmoid())
 
     def forward(self, data, train_sample, test_sample, device):
         # 随机生成drug、mRNA、incRNA特征
