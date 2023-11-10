@@ -7,7 +7,7 @@ The flowchart of MUSCLE. **A.** Data sources and some symbols in this study. **B
 ## Table of Contents
 
 - [Data description](#Data-description)
-- [Quick start](#quick-start)
+- [Requirements](#requirements)
 - [Contributing](#contributing)
 - [Cite](#cite)
 - [Contacts](#contacts)
@@ -15,7 +15,7 @@ The flowchart of MUSCLE. **A.** Data sources and some symbols in this study. **B
 
 
 # Data description
-all data downdload from data.zip
+All users can get our data from data.zip under the data folder.
 | File name  | Description |
 | ------------- | ------------- |
 | miRNA.csv    | MicroRNA name  |
