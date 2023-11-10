@@ -2,7 +2,16 @@
 MicroRNAs (miRNAs) synergize with various biomolecules in human cells resulting in diverse functions in regulating a wide range of biological processes associated with human diseases. Predicting potential disease-associated miRNAs as valuable biomarkers contributes to the diagnosis, prevention, and treatment of human diseases. However, few previous methods take a holistic perspective and only concentrate on isolated miRNA and disease objects, thereby ignoring that human cells are responsible for multiple relationships. In this paper, we first constructed a multi-view graph based on the relationships between miRNAs and various biomolecules, and then utilized graph attention neural network to learn the graph topology features of miRNAs and diseases for each view. Next, we added an attention mechanism again, and developed a multi-scale feature fusion module, aiming to determine the optimal fusion results for the multi-view topology features of miRNAs and diseases. In addition, the prior attribute knowledge of miRNAs and diseases was simultaneously added to achieve better prediction results and solve the cold start problem. Finally, the learned miRNA and disease representations were then concatenated and fed into a multi-layer perceptron (MLP) for end-to-end training and predicting potential miRNA-disease associations. To assess the efficacy of our model (called MUSCLE), we performed 5-fold and 10-fold cross-validation, which got average AUCs (The area under ROC curves) of 0.966±0.0102 and 0.973±0.0135 respectively, outperforming most current state-of-the-art models. We then examined the impact of crucial parameters on prediction performance and performed ablation experiments on the feature combination and model architecture. Furthermore, the case studies about colon cancer, lung cancer, and breast cancer also fully demonstrate the good inductive capability of MUSCLE.
 
 ![image](https://github.com/zht-code/MUSCLE/blob/main/IMG/liuchengtu.png)
-The flowchart of MUSCLE. **A.** Data sources and some symbols in this study. **B.** The computation and integration for the prior attribute features of miRNAs and diseases. \textbf{C.} Multiple heterogeneous graph construction and multi-view graph attention network for graph topology feature extraction of miRNAs and diseases. \textbf{D.} Multi-scale attentional feature fusion mechanism for efficiently fuse these multiple graph topology features. \textbf{E.} Multi-layer perceptron for trainning and prediction with attribute and graph topology features of miRNAs and diseases.
+The flowchart of MUSCLE. **A.** Data sources and some symbols in this study. **B.** The computation and integration for the prior attribute features of miRNAs and diseases. **C.** Multiple heterogeneous graph construction and multi-view graph attention network for graph topology feature extraction of miRNAs and diseases. **D.** Multi-scale attentional feature fusion mechanism for efficiently fuse these multiple graph topology features. **E.** Multi-layer perceptron for trainning and prediction with attribute and graph topology features of miRNAs and diseases.
+
+## Table of Contents
+
+- [Data description](#Data-description)
+- [Quick start](#quick-start)
+- [Contributing](#contributing)
+- [Cite](#cite)
+- [Contacts](#contacts)
+- [License](#license)
 
 
 # Data description
