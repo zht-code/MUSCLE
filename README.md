@@ -108,7 +108,7 @@ python ./Ablation/GAT_MSCAM_MDA.py
 ```
 python  ./src/case_studies.py
 ```
-The validation results of all case studies are in the folder: ./case_studies
+The validation results of all case studies are in the folder: ./case_study
 
 # Contributing
 
