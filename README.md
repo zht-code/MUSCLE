@@ -106,8 +106,10 @@ python ./Ablation/GAT_MSCAM_MDA.py
 
 5, To further examine the abili of MUSCLE in practical applications, we selected three common diseases for case studies, including lung cancer, breast cancer, and colon cancer. First, all the known miRNA-disease associations in our dataset were used to train the MUSCLE model. Second, we constructed all except known associations above between miRNAs and corresponding diseases as the test dataset. After that, MUSCLE predicted the three test dataset for the corresponding diseases and selected the top 50 miRNAs with the highest predicted scores. Finally, we checked the accuracy of the projected miRNAs using the dbDEMC and miRCancer databases. Run src/case_studies to reproduce the results, the options are:
 ```
-python  ./case_studies/case_studies.py
+python  ./src/case_studies.py
 ```
+The validation results of all case studies are in the folder: ./case_studies
+
 # Contributing
 
 XXL and SLP conceived the experiments,  BYJ, HTZ and LWX conducted the experiments, BYJ, XXL and SLP analysed the results.  BYJ and HTZ wrote and reviewed the manuscript.
